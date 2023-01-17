@@ -1,0 +1,222 @@
+{
+  "name": "TMUIComponents",
+  "version": "0.1.0",
+  "summary": "A short description of TMUIComponents.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/chengzongxin/TMUIComponents",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "chengzongxin": "joe.cheng@corp.to8to.com"
+  },
+  "source": {
+    "git": "https://github.com/chengzongxin/TMUIComponents.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "public_header_files": "TMUIComponents/Classes/*.h",
+  "dependencies": {
+    "Masonry": [
+
+    ],
+    "TMUICore": [
+
+    ],
+    "TMUIExtensions": [
+
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "TMUIWidgets",
+      "source_files": "TMUIComponents/Classes/TMUIWidgets/TMUIWidgets.h",
+      "subspecs": [
+        {
+          "name": "TMUIButton",
+          "source_files": "TMUIComponents/Classes/TMUIWidgets/TMUIButton"
+        },
+        {
+          "name": "TMUILabel",
+          "source_files": "TMUIComponents/Classes/TMUIWidgets/TMUILabel"
+        },
+        {
+          "name": "TMUITextField",
+          "source_files": "TMUIComponents/Classes/TMUIWidgets/TMUITextField"
+        },
+        {
+          "name": "TMUITextView",
+          "source_files": "TMUIComponents/Classes/TMUIWidgets/TMUITextView"
+        },
+        {
+          "name": "TMUISlider",
+          "source_files": "TMUIComponents/Classes/TMUIWidgets/TMUISlider"
+        },
+        {
+          "name": "TMUISegmentedControl",
+          "source_files": "TMUIComponents/Classes/TMUIWidgets/TMUISegmentedControl"
+        }
+      ]
+    },
+    {
+      "name": "TMUIMultipleDelegates",
+      "source_files": "TMUIComponents/Classes/TMUIMultipleDelegates/*.{h,m}"
+    },
+    {
+      "name": "TMContentAlert",
+      "source_files": "TMUIComponents/Classes/TMContentAlert/*.{h,m}"
+    },
+    {
+      "name": "TMContentPicker",
+      "source_files": "TMUIComponents/Classes/TMContentPicker/*.{h,m}",
+      "subspecs": [
+        {
+          "name": "TMNormalPicker",
+          "source_files": "TMUIComponents/Classes/TMContentPicker/TMNormalPicker"
+        },
+        {
+          "name": "TMDatePicker",
+          "source_files": "TMUIComponents/Classes/TMContentPicker/TMDatePicker"
+        },
+        {
+          "name": "TMMultiDataPicker",
+          "source_files": "TMUIComponents/Classes/TMContentPicker/TMMultiDataPicker"
+        },
+        {
+          "name": "TMCityPicker",
+          "source_files": "TMUIComponents/Classes/TMContentPicker/TMCityPicker"
+        }
+      ]
+    },
+    {
+      "name": "TMActionSheet",
+      "source_files": "TMUIComponents/Classes/TMActionSheet/*.{h,m}"
+    },
+    {
+      "name": "TMPopoverView",
+      "source_files": "TMUIComponents/Classes/TMPopoverView/*.{h,m}"
+    },
+    {
+      "name": "TMUIMenuView",
+      "source_files": "TMUIComponents/Classes/TMUIMenuView/*.{h,m}"
+    },
+    {
+      "name": "TMSearchController",
+      "source_files": "TMUIComponents/Classes/TMSearchController/*.{h,m}",
+      "resource_bundles": {
+        "TMSearchUIAssets": [
+          "TMUIComponents/Classes/TMSearchController/Resource/*.png"
+        ]
+      },
+      "subspecs": [
+        {
+          "name": "Private",
+          "private_header_files": "TMUIComponents/Classes/TMSearchController/Private/*.{h}",
+          "source_files": "TMUIComponents/Classes/TMSearchController/Private/*.{h,m}"
+        },
+        {
+          "name": "Extensions",
+          "source_files": "TMUIComponents/Classes/TMSearchController/Extensions/*.{h,m}"
+        }
+      ]
+    },
+    {
+      "name": "TMUICellHeightCache",
+      "source_files": "TMUIComponents/Classes/TMUICellHeightCache/*.{h,m}"
+    },
+    {
+      "name": "TMUIBadge",
+      "source_files": "TMUIComponents/Classes/TMUIBadge/*.{h,m}"
+    },
+    {
+      "name": "TMUIPageViewController",
+      "source_files": "TMUIComponents/Classes/TMUIPageViewController/*.{h,m}"
+    },
+    {
+      "name": "TMUIToast",
+      "source_files": "TMUIComponents/Classes/TMUIToast/*.{h,m}",
+      "resource_bundles": {
+        "TMUIToastUIAssets": [
+          "TMUIComponents/Classes/TMUIToast/Resource/*"
+        ]
+      }
+    },
+    {
+      "name": "TMUIExpandLabel",
+      "source_files": "TMUIComponents/Classes/TMUIExpandLabel/*.{h,m}"
+    },
+    {
+      "name": "TMUIFloatLayoutView",
+      "source_files": "TMUIComponents/Classes/TMUIFloatLayoutView/*.{h,m}"
+    },
+    {
+      "name": "TMUIFloatImagesView",
+      "source_files": "TMUIComponents/Classes/TMUIFloatImagesView/*.{h,m}"
+    },
+    {
+      "name": "TMUITimer",
+      "source_files": "TMUIComponents/Classes/TMUITimer/*.{h,m}"
+    },
+    {
+      "name": "TMUICycleView",
+      "source_files": "TMUIComponents/Classes/TMUICycleView/*.{h,m}"
+    },
+    {
+      "name": "TMUISegmentView",
+      "source_files": "TMUIComponents/Classes/TMUISegmentView/*.{h,m}"
+    },
+    {
+      "name": "TMUISearchBar",
+      "source_files": "TMUIComponents/Classes/TMUISearchBar/*.{h,m}",
+      "resource_bundles": {
+        "TMUISearchBarUIAssets": [
+          "TMUIComponents/Classes/TMUISearchBar/Resource/*"
+        ]
+      }
+    },
+    {
+      "name": "TMUIFilterView",
+      "source_files": "TMUIComponents/Classes/TMUIFilterView/*.{h,m}"
+    },
+    {
+      "name": "TMUIPickerView",
+      "source_files": "TMUIComponents/Classes/TMUIPickerView/*.{h,m}"
+    },
+    {
+      "name": "TMUIAppearance",
+      "source_files": "TMUIComponents/Classes/TMUIAppearance/*.{h,m}"
+    },
+    {
+      "name": "TMUIPopupContainerView",
+      "source_files": "TMUIComponents/Classes/TMUIPopupContainerView/*.{h,m}"
+    },
+    {
+      "name": "TMUINavigationBar",
+      "source_files": "TMUIComponents/Classes/TMUINavigationBar/*.{h,m}",
+      "resource_bundles": {
+        "TMUINavigationBarUIAssets": [
+          "TMUIComponents/Classes/TMUINavigationBar/Resource/*"
+        ]
+      }
+    },
+    {
+      "name": "TMUITableView",
+      "source_files": "TMUIComponents/Classes/TMUITableView/*.{h,m}"
+    },
+    {
+      "name": "TMShowBigImageController",
+      "source_files": "TMUIComponents/Classes/TMShowBigImageController/*.{h,m}"
+    },
+    {
+      "name": "TMUIModalPresentationViewController",
+      "source_files": "TMUIComponents/Classes/TMUIModalPresentationViewController/*.{h,m}"
+    },
+    {
+      "name": "TMUITheme",
+      "source_files": "TMUIComponents/Classes/TMUITheme/*.{h,m}"
+    }
+  ]
+}

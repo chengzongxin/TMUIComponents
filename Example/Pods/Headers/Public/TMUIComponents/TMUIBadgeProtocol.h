@@ -1,0 +1,1 @@
+../../../../../TMUIComponents/Classes/TMUIBadge/TMUIBadgeProtocol.h

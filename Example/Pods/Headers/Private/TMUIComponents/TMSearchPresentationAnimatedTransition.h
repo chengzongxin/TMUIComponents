@@ -1,0 +1,1 @@
+../../../../../TMUIComponents/Classes/TMSearchController/Private/TMSearchPresentationAnimatedTransition.h

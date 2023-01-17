@@ -1,0 +1,1 @@
+../../../../../TMUIComponents/Classes/TMSearchController/Extensions/TMSearchingController.h

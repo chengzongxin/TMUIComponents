@@ -1,0 +1,292 @@
+# Acknowledgements
+This application makes use of the following third party libraries:
+
+## Masonry
+
+Copyright (c) 2011-2012 Masonry Team - https://github.com/Masonry
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+## TMUIComponents
+
+Copyright (c) 2023 chengzongxin <joe.cheng@corp.to8to.com>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+
+## TMUICore
+
+Copyright (c) 2021 chengzongxin <joe.cheng@corp.to8to.com>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+//重复定义
+#warning TODO zjl chang
+NS_INLINE CGFloat INFrameScaleX() {
+    static CGFloat frameScaleX = 1.0;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        frameScaleX = kScreenWidth/375.0;
+    });
+    return frameScaleX;
+}
+
+NS_INLINE CGFloat INFrameScaleY() {
+    static CGFloat frameScaleY = 1.0;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        frameScaleY = kScreenHeight/667.0;
+    });
+    return frameScaleY;
+}
+
+NS_INLINE CGFloat kSafeAreaTopInset(){
+    CGFloat top = 0;
+    if (@available(iOS 11.0, *)) {
+        top = kCurrentWindow.safeAreaInsets.top;
+    }
+    return top;
+}
+
+NS_INLINE CGFloat kSafeAreaBottomInset(){
+    CGFloat bottom = 0;
+    if (@available(iOS 11.0, *)) {
+        bottom = kCurrentWindow.safeAreaInsets.bottom;
+    }
+    return bottom;
+}
+
+NS_INLINE CGFloat kTNavigationBarHeight(){
+    static CGFloat navHeight = 0;
+    if (navHeight > 0) {
+        return navHeight;
+    }
+    navHeight = 64;
+    if (@available(iOS 11.0, *)) {
+        CGFloat top = kCurrentWindow.safeAreaInsets.top;
+        navHeight = top > 0 ? kCurrentWindow.safeAreaInsets.top + 44 : 64;
+    }
+    return navHeight;
+}
+
+/**
+ safeAreaInset版本判断
+ @return 返回当前view的safeAreaInset
+ */
+static inline UIEdgeInsets fw_safeAreaInset() {
+    if (@available(iOS 11.0, *)) {
+        return kCurrentWindow.safeAreaInsets;
+    }
+    return UIEdgeInsetsZero;
+}
+
+
+//---可删除 只保留一个----
+// 缓存路径-cach目录
+NS_INLINE NSString *INFilePathAtCachWithName(NSString *fileNAme) {
+    static NSString *cachFilePath = nil;
+    if (!cachFilePath) {
+        cachFilePath = [NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) firstObject];
+    }
+    return [cachFilePath stringByAppendingPathComponent:fileNAme];
+}
+
+// 缓存路径-document目录
+NS_INLINE NSString *INFilePathAtDocumentWithName(NSString *fileNAme) {
+    static NSString *documentFilePath = nil;
+    if (!documentFilePath) {
+        documentFilePath = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) firstObject];
+    }
+    return [documentFilePath stringByAppendingPathComponent:fileNAme];
+}
+
+// 缓存路径-tem目录
+NS_INLINE NSString *INFilePathAtTemWithName(NSString *fileNAme) {
+    return [NSTemporaryDirectory() stringByAppendingString:fileNAme];
+}
+//static inline UIImage* imageWithColor(UIColor *clr)
+//{
+//    CGRect rect = CGRectMake(0, 0, 1, 1);
+//    UIGraphicsBeginImageContext(rect.size);
+//    CGContextRef context = UIGraphicsGetCurrentContext();
+//
+//    CGContextSetFillColorWithColor(context, [clr CGColor]);
+//    CGContextFillRect(context, rect);
+//
+//    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+//    UIGraphicsEndImageContext();
+//
+//    return image;
+//}
+
+
+## TMUIExtensions
+
+Copyright (c) 2021 chengzongxin <joe.cheng@corp.to8to.com>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+//重复定义
+#warning TODO zjl chang
+NS_INLINE CGFloat INFrameScaleX() {
+    static CGFloat frameScaleX = 1.0;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        frameScaleX = kScreenWidth/375.0;
+    });
+    return frameScaleX;
+}
+
+NS_INLINE CGFloat INFrameScaleY() {
+    static CGFloat frameScaleY = 1.0;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        frameScaleY = kScreenHeight/667.0;
+    });
+    return frameScaleY;
+}
+
+NS_INLINE CGFloat kSafeAreaTopInset(){
+    CGFloat top = 0;
+    if (@available(iOS 11.0, *)) {
+        top = kCurrentWindow.safeAreaInsets.top;
+    }
+    return top;
+}
+
+NS_INLINE CGFloat kSafeAreaBottomInset(){
+    CGFloat bottom = 0;
+    if (@available(iOS 11.0, *)) {
+        bottom = kCurrentWindow.safeAreaInsets.bottom;
+    }
+    return bottom;
+}
+
+NS_INLINE CGFloat kTNavigationBarHeight(){
+    static CGFloat navHeight = 0;
+    if (navHeight > 0) {
+        return navHeight;
+    }
+    navHeight = 64;
+    if (@available(iOS 11.0, *)) {
+        CGFloat top = kCurrentWindow.safeAreaInsets.top;
+        navHeight = top > 0 ? kCurrentWindow.safeAreaInsets.top + 44 : 64;
+    }
+    return navHeight;
+}
+
+/**
+ safeAreaInset版本判断
+ @return 返回当前view的safeAreaInset
+ */
+static inline UIEdgeInsets fw_safeAreaInset() {
+    if (@available(iOS 11.0, *)) {
+        return kCurrentWindow.safeAreaInsets;
+    }
+    return UIEdgeInsetsZero;
+}
+
+
+//---可删除 只保留一个----
+// 缓存路径-cach目录
+NS_INLINE NSString *INFilePathAtCachWithName(NSString *fileNAme) {
+    static NSString *cachFilePath = nil;
+    if (!cachFilePath) {
+        cachFilePath = [NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) firstObject];
+    }
+    return [cachFilePath stringByAppendingPathComponent:fileNAme];
+}
+
+// 缓存路径-document目录
+NS_INLINE NSString *INFilePathAtDocumentWithName(NSString *fileNAme) {
+    static NSString *documentFilePath = nil;
+    if (!documentFilePath) {
+        documentFilePath = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) firstObject];
+    }
+    return [documentFilePath stringByAppendingPathComponent:fileNAme];
+}
+
+// 缓存路径-tem目录
+NS_INLINE NSString *INFilePathAtTemWithName(NSString *fileNAme) {
+    return [NSTemporaryDirectory() stringByAppendingString:fileNAme];
+}
+//static inline UIImage* imageWithColor(UIColor *clr)
+//{
+//    CGRect rect = CGRectMake(0, 0, 1, 1);
+//    UIGraphicsBeginImageContext(rect.size);
+//    CGContextRef context = UIGraphicsGetCurrentContext();
+//
+//    CGContextSetFillColorWithColor(context, [clr CGColor]);
+//    CGContextFillRect(context, rect);
+//
+//    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+//    UIGraphicsEndImageContext();
+//
+//    return image;
+//}
+
+Generated by CocoaPods - https://cocoapods.org

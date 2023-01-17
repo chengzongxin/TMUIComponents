@@ -1,4 +1,6 @@
-use_frameworks!
+#use_frameworks!
+source 'https://github.com/chengzongxin/TMUICore.git'
+source 'https://github.com/chengzongxin/TMUIExtensions.git'
 
 platform :ios, '10.0'
 

@@ -1,0 +1,6 @@
+framework module Pods_TMUIComponents_Example {
+  umbrella header "Pods-TMUIComponents_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
