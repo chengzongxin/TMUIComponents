@@ -455,11 +455,11 @@
 		062D569AB5A24928246915FDF2082B14 /* ALAssetsLibrary+TMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ALAssetsLibrary+TMUI.m"; path = "TMUIKit/TMUIExtensions/Foundation/ALAssetsLibrary+TMUI.m"; sourceTree = "<group>"; };
 		08CF6A5A34FC0C5618E772C7545634FB /* NSFileManager+TMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSFileManager+TMUI.m"; path = "TMUIKit/TMUIExtensions/Foundation/NSFileManager+TMUI.m"; sourceTree = "<group>"; };
 		0A6463EEFB0F7077D843C7B1582791A6 /* TMUIThemeManagerCenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMUIThemeManagerCenter.m; path = TMUIComponents/Classes/TMUITheme/TMUIThemeManagerCenter.m; sourceTree = "<group>"; };
-		0B1E48172CBB3F250206FF7E44BCD57F /* TMUIComponents.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TMUIComponents.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0B1E48172CBB3F250206FF7E44BCD57F /* TMUIComponents.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TMUIComponents.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		0B7BAF379C25C3D32CE62AD5D773749A /* TMUIAppearance.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMUIAppearance.m; path = TMUIComponents/Classes/TMUIAppearance/TMUIAppearance.m; sourceTree = "<group>"; };
 		0BE3BB204BF19E2314A6E5182FA8AC06 /* UILabel+TMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+TMUI.h"; path = "TMUIKit/TMUIExtensions/UIKit/UILabel+TMUI.h"; sourceTree = "<group>"; };
 		0C47BE116539D7FC3CCE6E3ED659D5D3 /* UIBarItem+TMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIBarItem+TMUI.m"; path = "TMUIKit/TMUIExtensions/UIKit/UIBarItem+TMUI.m"; sourceTree = "<group>"; };
-		0C4A69739189279982179AB57F0CC0AE /* libTMUIExtensions.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libTMUIExtensions.a; path = libTMUIExtensions.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C4A69739189279982179AB57F0CC0AE /* libTMUIExtensions.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTMUIExtensions.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D16C40B55CB26621F6F05E94F4728D9 /* UIView+TMUITheme.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+TMUITheme.m"; path = "TMUIComponents/Classes/TMUITheme/UIView+TMUITheme.m"; sourceTree = "<group>"; };
 		0E2FB9A27180117A6927CA58734BAB40 /* TMUIPopupContainerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMUIPopupContainerView.m; path = TMUIComponents/Classes/TMUIPopupContainerView/TMUIPopupContainerView.m; sourceTree = "<group>"; };
 		0EEA5B250C624CF130E8DC109210E7CF /* UITableViewCell+TMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableViewCell+TMUI.m"; path = "TMUIKit/TMUIExtensions/UIKit/UITableViewCell+TMUI.m"; sourceTree = "<group>"; };
@@ -489,7 +489,7 @@
 		1EE96934A925D96C9DAFB5A1301239F9 /* UIControl+TMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIControl+TMUI.h"; path = "TMUIKit/TMUIExtensions/UIKit/UIControl+TMUI.h"; sourceTree = "<group>"; };
 		1F973F7E8954F26E76601E9782D7D3D5 /* TMUIButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMUIButton.h; path = TMUIComponents/Classes/TMUIWidgets/TMUIButton/TMUIButton.h; sourceTree = "<group>"; };
 		1FCEC29A47D7CB6B2E02701506328F39 /* tmui_nav_back_black@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tmui_nav_back_black@3x.png"; path = "TMUIComponents/Classes/TMUINavigationBar/Resource/tmui_nav_back_black@3x.png"; sourceTree = "<group>"; };
-		1FFED36A657123030ABB700256D73F15 /* libMasonry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMasonry.a; path = libMasonry.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FFED36A657123030ABB700256D73F15 /* libMasonry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMasonry.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		209E50FFE3D37375C0664CD8EE7F7F8A /* TMUIComponents.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TMUIComponents.release.xcconfig; sourceTree = "<group>"; };
 		21001747D758B93FCF22E541E6B106C2 /* TMSearchController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMSearchController.m; path = TMUIComponents/Classes/TMSearchController/TMSearchController.m; sourceTree = "<group>"; };
 		21BE3C6586D34AE72EEA5CA928DDDA8D /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
@@ -551,7 +551,7 @@
 		48F5656B0143562FAEEC601D6E75AF87 /* TMUIFilterLeftAlignedLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMUIFilterLeftAlignedLayout.h; path = TMUIComponents/Classes/TMUIFilterView/TMUIFilterLeftAlignedLayout.h; sourceTree = "<group>"; };
 		49EEA9C58C66A2AA5CD90A06C1467B5C /* UIControl+TMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIControl+TMUI.m"; path = "TMUIKit/TMUIExtensions/UIKit/UIControl+TMUI.m"; sourceTree = "<group>"; };
 		4A73CD26C24C9D9ED9AE57304F62E78E /* TMUIFloatImagesView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMUIFloatImagesView.m; path = TMUIComponents/Classes/TMUIFloatImagesView/TMUIFloatImagesView.m; sourceTree = "<group>"; };
-		4ACA0D89245E5A07BBAE4FCF80F76C88 /* TMUINavigationBarUIAssets.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = TMUINavigationBarUIAssets.bundle; path = "TMUIComponents-TMUINavigationBarUIAssets.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ACA0D89245E5A07BBAE4FCF80F76C88 /* TMUINavigationBarUIAssets.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TMUINavigationBarUIAssets.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C49D059A00F98562C8A5978DD5338E1 /* NSMutableParagraphStyle+TMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableParagraphStyle+TMUI.h"; path = "TMUIKit/TMUIExtensions/Foundation/NSMutableParagraphStyle+TMUI.h"; sourceTree = "<group>"; };
 		4C78F4113BBC958161633461D08C992D /* tmui_searchBar_arrow2@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tmui_searchBar_arrow2@2x.png"; path = "TMUIComponents/Classes/TMUISearchBar/Resource/tmui_searchBar_arrow2@2x.png"; sourceTree = "<group>"; };
 		4CE6DD0873B3306E25CB6B6433B253F3 /* ALAssetsLibrary+TMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ALAssetsLibrary+TMUI.h"; path = "TMUIKit/TMUIExtensions/Foundation/ALAssetsLibrary+TMUI.h"; sourceTree = "<group>"; };
@@ -591,7 +591,7 @@
 		61642BE989CEF34DF577B44C3BE014B0 /* Pods-TMUIComponents_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TMUIComponents_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		619522B49AB62BCF3AE4B4971B258733 /* TMUISegmentedControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMUISegmentedControl.h; path = TMUIComponents/Classes/TMUIWidgets/TMUISegmentedControl/TMUISegmentedControl.h; sourceTree = "<group>"; };
 		61CB1A11581F7068F20CB6F82A95BAB2 /* tmui_nav_search_white@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tmui_nav_search_white@2x.png"; path = "TMUIComponents/Classes/TMUINavigationBar/Resource/tmui_nav_search_white@2x.png"; sourceTree = "<group>"; };
-		6294E61BCD1DCB887F224EA258F55DD2 /* TMUIToastUIAssets.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = TMUIToastUIAssets.bundle; path = "TMUIComponents-TMUIToastUIAssets.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6294E61BCD1DCB887F224EA258F55DD2 /* TMUIToastUIAssets.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TMUIToastUIAssets.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		62BE048F5FB66BBC859C7EAB054CAC0E /* TMUIFloatLayoutView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMUIFloatLayoutView.m; path = TMUIComponents/Classes/TMUIFloatLayoutView/TMUIFloatLayoutView.m; sourceTree = "<group>"; };
 		63284B439EACC23C63A14EB5C1C3CD6B /* TMUIFilterView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMUIFilterView.m; path = TMUIComponents/Classes/TMUIFilterView/TMUIFilterView.m; sourceTree = "<group>"; };
 		639EDC0FF6FEBC8648F50B86DCE203FF /* searchBarLeftIcon@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "searchBarLeftIcon@3x.png"; path = "TMUIComponents/Classes/TMSearchController/Resource/searchBarLeftIcon@3x.png"; sourceTree = "<group>"; };
@@ -653,8 +653,8 @@
 		8E52AD041C665406742D172248B5F1AE /* UILabel+TMUIAttributesTextClick.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+TMUIAttributesTextClick.m"; path = "TMUIKit/TMUIExtensions/UIKit/UILabel+TMUIAttributesTextClick.m"; sourceTree = "<group>"; };
 		8EB5872E23E6271901035AE3C59F51A6 /* TMUICustomDatePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMUICustomDatePicker.h; path = TMUIComponents/Classes/TMUIPickerView/TMUICustomDatePicker.h; sourceTree = "<group>"; };
 		8F8D670FB3C13A7F8D7524F3DA60F9CE /* tmui_searchBar_clear@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tmui_searchBar_clear@3x.png"; path = "TMUIComponents/Classes/TMUISearchBar/Resource/tmui_searchBar_clear@3x.png"; sourceTree = "<group>"; };
-		903A77505C6C535CA084CF78ED8CE5C0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		91239F3B5E70AABCFE8EF3F80CA3AC9F /* TMUISearchBarUIAssets.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = TMUISearchBarUIAssets.bundle; path = "TMUIComponents-TMUISearchBarUIAssets.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		903A77505C6C535CA084CF78ED8CE5C0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		91239F3B5E70AABCFE8EF3F80CA3AC9F /* TMUISearchBarUIAssets.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TMUISearchBarUIAssets.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		917E3401B37CB621B7F4E6FB21378A29 /* TMUIAppearance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMUIAppearance.h; path = TMUIComponents/Classes/TMUIAppearance/TMUIAppearance.h; sourceTree = "<group>"; };
 		91954EA2B8CC922BC565E5772F9E35DE /* TMUIFilterSectionHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMUIFilterSectionHeader.m; path = TMUIComponents/Classes/TMUIFilterView/TMUIFilterSectionHeader.m; sourceTree = "<group>"; };
 		934A47B1285F2BD999D5DBB76DF0C4D5 /* TMUIMenuView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMUIMenuView.m; path = TMUIComponents/Classes/TMUIMenuView/TMUIMenuView.m; sourceTree = "<group>"; };
@@ -665,7 +665,7 @@
 		991FC3195763C6F0E32706014BEA0B44 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
 		9D16487C4D003F15B5ADD57AB7AD2912 /* TMUIPickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMUIPickerView.m; path = TMUIComponents/Classes/TMUIPickerView/TMUIPickerView.m; sourceTree = "<group>"; };
 		9D7F462108221B376DC3C83BF42E3F89 /* UIView+TMUIBorder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+TMUIBorder.m"; path = "TMUIKit/TMUIExtensions/UIKit/UIView+TMUIBorder.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DD80C2D0D6F9182B7EFD710FF8DB79C /* UICollectionViewCell+TMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UICollectionViewCell+TMUI.m"; path = "TMUIKit/TMUIExtensions/UIKit/UICollectionViewCell+TMUI.m"; sourceTree = "<group>"; };
 		9DDC9135D8A06F95ABAA54BAFE372F3C /* TMUICustomCornerRadiusView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMUICustomCornerRadiusView.h; path = TMUIComponents/Classes/TMUIFilterView/TMUICustomCornerRadiusView.h; sourceTree = "<group>"; };
 		9E0AC71F9B4F635604A8147207D2E77D /* TMUIThemeManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMUIThemeManager.m; path = TMUIComponents/Classes/TMUITheme/TMUIThemeManager.m; sourceTree = "<group>"; };
@@ -716,7 +716,7 @@
 		B96F97C9BC22FE8EE0CF08FFED27C26B /* TMUICustomDatePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMUICustomDatePicker.m; path = TMUIComponents/Classes/TMUIPickerView/TMUICustomDatePicker.m; sourceTree = "<group>"; };
 		BD33DF1800E9046930F5BDE1C92E3D09 /* NSFileManager+TMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSFileManager+TMUI.h"; path = "TMUIKit/TMUIExtensions/Foundation/NSFileManager+TMUI.h"; sourceTree = "<group>"; };
 		BF71537B79D689229BE9A8F3912DBD2E /* UIImage+TMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+TMUI.m"; path = "TMUIKit/TMUIExtensions/UIKit/UIImage+TMUI.m"; sourceTree = "<group>"; };
-		C18F428565B836867C1CF7EF1EB8D13E /* libPods-TMUIComponents_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TMUIComponents_Example.a"; path = "libPods-TMUIComponents_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C18F428565B836867C1CF7EF1EB8D13E /* libPods-TMUIComponents_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TMUIComponents_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C287A228F0F6E49B69CBCF55D90F114A /* TMUISegmentCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMUISegmentCell.h; path = TMUIComponents/Classes/TMUISegmentView/TMUISegmentCell.h; sourceTree = "<group>"; };
 		C28A385625792BD2905B8949AA51E02D /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
 		C3F98CBC362827D59AE50F8367EBB1DA /* TMShowBigImageViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMShowBigImageViewController.h; path = TMUIComponents/Classes/TMShowBigImageController/TMShowBigImageViewController.h; sourceTree = "<group>"; };
@@ -732,7 +732,7 @@
 		CC1A386BD2EAD7478BCF6181A8CFE075 /* TMUIExtensions.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TMUIExtensions.debug.xcconfig; sourceTree = "<group>"; };
 		CC21220891AD28F40AD985F19CB33441 /* TMUINavigationBarApprance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMUINavigationBarApprance.h; path = TMUIComponents/Classes/TMUINavigationBar/TMUINavigationBarApprance.h; sourceTree = "<group>"; };
 		CC5974E1B054BA2F539FDF3DE3C9AD3D /* TMUIToastBackgroundView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMUIToastBackgroundView.h; path = TMUIComponents/Classes/TMUIToast/TMUIToastBackgroundView.h; sourceTree = "<group>"; };
-		CCA7B212B4B125FAB0DAC1407830FCA2 /* libTMUIComponents.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libTMUIComponents.a; path = libTMUIComponents.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCA7B212B4B125FAB0DAC1407830FCA2 /* libTMUIComponents.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTMUIComponents.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD1E71034AAFDB2EE8EF344A7257EB48 /* UIViewController+TMUITheme.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+TMUITheme.m"; path = "TMUIComponents/Classes/TMUITheme/UIViewController+TMUITheme.m"; sourceTree = "<group>"; };
 		CD351137F967A89A3312A8568B46C482 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		CD3A3597FFEC2A0841EF901BBDD1DE28 /* NSBundle+TMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+TMUI.m"; path = "TMUIKit/TMUIExtensions/Foundation/NSBundle+TMUI.m"; sourceTree = "<group>"; };
@@ -759,7 +759,7 @@
 		D8BFDA7EBDF8F4EE4396AAF3D4C709BA /* UIButton+TMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+TMUI.m"; path = "TMUIKit/TMUIExtensions/UIKit/UIButton+TMUI.m"; sourceTree = "<group>"; };
 		D8DCAAE335A846CCBFDB447E36C5FACC /* TMUIMultiDataPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMUIMultiDataPicker.h; path = TMUIComponents/Classes/TMUIPickerView/TMUIMultiDataPicker.h; sourceTree = "<group>"; };
 		D952FCD5272F6848F583D1F9DD5EE160 /* TMUIPickerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMUIPickerViewController.h; path = TMUIComponents/Classes/TMUIPickerView/TMUIPickerViewController.h; sourceTree = "<group>"; };
-		DB35501F0968B7FEB2B8A7E28B233142 /* libPods-TMUIComponents_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TMUIComponents_Tests.a"; path = "libPods-TMUIComponents_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB35501F0968B7FEB2B8A7E28B233142 /* libPods-TMUIComponents_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TMUIComponents_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB446CF05307AC5DF344BBD783D3760C /* TMUICore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TMUICore.release.xcconfig; sourceTree = "<group>"; };
 		DBC3365080B9186B619162B93EBEBC77 /* TMCityPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMCityPicker.m; path = TMUIComponents/Classes/TMContentPicker/TMCityPicker/TMCityPicker.m; sourceTree = "<group>"; };
 		DBDE8C276397CD0EE1FE848E93E1DAF2 /* TMSearchPresentationAnimatedTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMSearchPresentationAnimatedTransition.h; path = TMUIComponents/Classes/TMSearchController/Private/TMSearchPresentationAnimatedTransition.h; sourceTree = "<group>"; };
@@ -807,21 +807,21 @@
 		F227A5EBCE23B64EA405ABB1A91413AB /* tmui_nav_back_white@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tmui_nav_back_white@3x.png"; path = "TMUIComponents/Classes/TMUINavigationBar/Resource/tmui_nav_back_white@3x.png"; sourceTree = "<group>"; };
 		F28E95ED6682662A5F892855C01421A3 /* UIBarItem+TMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBarItem+TMUI.h"; path = "TMUIKit/TMUIExtensions/UIKit/UIBarItem+TMUI.h"; sourceTree = "<group>"; };
 		F2BA69ADF2109FC6ED86F38A1154BBA9 /* TMUIAssociatedPropertyDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMUIAssociatedPropertyDefines.h; path = TMUIKit/TMUICore/TMUIAssociatedPropertyDefines.h; sourceTree = "<group>"; };
-		F2E59A0E2F1F38E7C9F1B7A9D3C2BC29 /* TMSearchUIAssets.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = TMSearchUIAssets.bundle; path = "TMUIComponents-TMSearchUIAssets.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2E59A0E2F1F38E7C9F1B7A9D3C2BC29 /* TMSearchUIAssets.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TMSearchUIAssets.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		F56B16F1DEA95451C6405028ADD0644F /* TMUISlider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMUISlider.h; path = TMUIComponents/Classes/TMUIWidgets/TMUISlider/TMUISlider.h; sourceTree = "<group>"; };
 		F5EA50AC6E5CBC1232431BE7ED1E50A5 /* TMUIPickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMUIPickerView.h; path = TMUIComponents/Classes/TMUIPickerView/TMUIPickerView.h; sourceTree = "<group>"; };
 		F764791B853E986791101A2019CDFA40 /* TMUIExpandLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMUIExpandLabel.m; path = TMUIComponents/Classes/TMUIExpandLabel/TMUIExpandLabel.m; sourceTree = "<group>"; };
 		F81170A277713DF4D7ACF2300A09C27D /* UITableViewCell+TMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableViewCell+TMUI.h"; path = "TMUIKit/TMUIExtensions/UIKit/UITableViewCell+TMUI.h"; sourceTree = "<group>"; };
 		F8E54F9A9805FBFF71A2BA3F1E901E75 /* TMUIMultipleDelegates.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMUIMultipleDelegates.h; path = TMUIComponents/Classes/TMUIMultipleDelegates/TMUIMultipleDelegates.h; sourceTree = "<group>"; };
 		F9A2728E2D2A519E2A98A061A0272359 /* TMUIFilterModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMUIFilterModel.m; path = TMUIComponents/Classes/TMUIFilterView/TMUIFilterModel.m; sourceTree = "<group>"; };
-		FAF2EB38A64D56D687634B93B9748E56 /* libTMUICore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libTMUICore.a; path = libTMUICore.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF2EB38A64D56D687634B93B9748E56 /* libTMUICore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTMUICore.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB0B385A550C940CD1D3AE3BE029EB55 /* UITextView+TMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextView+TMUI.m"; path = "TMUIKit/TMUIExtensions/UIKit/UITextView+TMUI.m"; sourceTree = "<group>"; };
 		FB1E71215C6AD6EDC3B977364F785D0E /* TMUIKitDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMUIKitDefines.h; path = TMUIKit/TMUICore/TMUIKitDefines.h; sourceTree = "<group>"; };
 		FBBEF9982CA60DCA84CDB534D6AAA389 /* TMDatePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMDatePicker.m; path = TMUIComponents/Classes/TMContentPicker/TMDatePicker/TMDatePicker.m; sourceTree = "<group>"; };
 		FC48128B31B7D15F5092783FC6140AAB /* TMUIPickerViewConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMUIPickerViewConfig.h; path = TMUIComponents/Classes/TMUIPickerView/TMUIPickerViewConfig.h; sourceTree = "<group>"; };
 		FDBAB15C490BC09716E9AA03F08C8A16 /* TMUITableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMUITableView.h; path = TMUIComponents/Classes/TMUITableView/TMUITableView.h; sourceTree = "<group>"; };
 		FDED3CB9B338DB0B37D3C06BB4E081D8 /* TMUITableViewHeaderFooterView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMUITableViewHeaderFooterView.m; path = TMUIComponents/Classes/TMUITableView/TMUITableViewHeaderFooterView.m; sourceTree = "<group>"; };
-		FF4F85CF362EB1A8B5A1A0E8D790792A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		FF4F85CF362EB1A8B5A1A0E8D790792A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		FFB61424FE8B24D5B7CFE488C1477652 /* TMUITableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMUITableViewCell.h; path = TMUIComponents/Classes/TMUITableView/TMUITableViewCell.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -1121,7 +1121,6 @@
 				2B4C8CA65CF364702AD02D58DFAAF22F /* ViewController+MASAdditions.m */,
 				D15BFCF586E08B7D9E3E4137D05E6600 /* Support Files */,
 			);
-			name = Masonry;
 			path = Masonry;
 			sourceTree = "<group>";
 		};
@@ -1446,7 +1445,6 @@
 				B3AF0941DF5094012FBCC39F00A63732 /* Support Files */,
 				77833FCA44E1F46F4939360DA0E04FDB /* UIKit */,
 			);
-			name = TMUIExtensions;
 			path = TMUIExtensions;
 			sourceTree = "<group>";
 		};
@@ -1632,7 +1630,6 @@
 				EC67394EEA4FDC39BE26483FFEEC679B /* TMUIWeakObjectContainer.m */,
 				FBC0CF0DBE737B486C9CCA50EC0FB61D /* Support Files */,
 			);
-			name = TMUICore;
 			path = TMUICore;
 			sourceTree = "<group>";
 		};
@@ -2669,8 +2666,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

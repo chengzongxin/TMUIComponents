@@ -197,8 +197,6 @@ TODO: Add long description of the pod here.
   end
 
 
-    ######################## begin 以下组件在项目中暂不使用，先屏蔽，只在Demo中打开 ########################
-
     s.subspec 'TMUITableView' do |ss|
       ss.source_files = 'TMUIComponents/Classes/TMUITableView/*.{h,m}'
     end
@@ -211,10 +209,13 @@ TODO: Add long description of the pod here.
     s.subspec 'TMUIModalPresentationViewController' do |ss|
       ss.source_files = 'TMUIComponents/Classes/TMUIModalPresentationViewController/*.{h,m}'
     end
+    
+    
+    ######################## begin 以下组件在项目中暂不使用，先屏蔽，只在Demo中打开 ########################
 
-    s.subspec 'TMUITheme' do |ss|
-      ss.source_files = 'TMUIComponents/Classes/TMUITheme/*.{h,m}'
-    end
+#    s.subspec 'TMUITheme' do |ss|
+#      ss.source_files = 'TMUIComponents/Classes/TMUITheme/*.{h,m}'
+#    end
 
      ########################  end 以上组件只在demo中打开  ########################
 end
