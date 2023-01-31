@@ -18,6 +18,7 @@
   "platforms": {
     "ios": "10.0"
   },
+  "source_files": "TMUIExtensions/Classes/**/*",
   "public_header_files": "TMUIComponents/Classes/*.h",
   "dependencies": {
     "Masonry": [
@@ -145,10 +146,6 @@
       }
     },
     {
-      "name": "TMUIExpandLabel",
-      "source_files": "TMUIComponents/Classes/TMUIExpandLabel/*.{h,m}"
-    },
-    {
       "name": "TMUIFloatLayoutView",
       "source_files": "TMUIComponents/Classes/TMUIFloatLayoutView/*.{h,m}"
     },
@@ -169,38 +166,12 @@
       "source_files": "TMUIComponents/Classes/TMUISegmentView/*.{h,m}"
     },
     {
-      "name": "TMUISearchBar",
-      "source_files": "TMUIComponents/Classes/TMUISearchBar/*.{h,m}",
-      "resource_bundles": {
-        "TMUISearchBarUIAssets": [
-          "TMUIComponents/Classes/TMUISearchBar/Resource/*"
-        ]
-      }
-    },
-    {
-      "name": "TMUIFilterView",
-      "source_files": "TMUIComponents/Classes/TMUIFilterView/*.{h,m}"
-    },
-    {
-      "name": "TMUIPickerView",
-      "source_files": "TMUIComponents/Classes/TMUIPickerView/*.{h,m}"
-    },
-    {
       "name": "TMUIAppearance",
       "source_files": "TMUIComponents/Classes/TMUIAppearance/*.{h,m}"
     },
     {
       "name": "TMUIPopupContainerView",
       "source_files": "TMUIComponents/Classes/TMUIPopupContainerView/*.{h,m}"
-    },
-    {
-      "name": "TMUINavigationBar",
-      "source_files": "TMUIComponents/Classes/TMUINavigationBar/*.{h,m}",
-      "resource_bundles": {
-        "TMUINavigationBarUIAssets": [
-          "TMUIComponents/Classes/TMUINavigationBar/Resource/*"
-        ]
-      }
     },
     {
       "name": "TMUITableView",
@@ -213,10 +184,6 @@
     {
       "name": "TMUIModalPresentationViewController",
       "source_files": "TMUIComponents/Classes/TMUIModalPresentationViewController/*.{h,m}"
-    },
-    {
-      "name": "TMUITheme",
-      "source_files": "TMUIComponents/Classes/TMUITheme/*.{h,m}"
     }
   ]
 }

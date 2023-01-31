@@ -5,6 +5,8 @@ source 'https://github.com/chengzongxin/TMUIExtensions.git'
 platform :ios, '10.0'
 
 target 'TMUIComponents_Example' do
+  pod 'TMUICore', :path => '~/TMUICore'
+  pod 'TMUIExtensions', :path => '~/TMUIExtensions'
   pod 'TMUIComponents', :path => '../'
 
   target 'TMUIComponents_Tests' do

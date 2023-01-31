@@ -30,7 +30,9 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
-  
+  #引入所有资源文件
+  s.source_files = 'TMUIComponents/Classes/**/*.h'
+  #公开模块中的头文件
   s.public_header_files = 'TMUIComponents/Classes/*.h'
 
   s.dependency 'Masonry'
@@ -166,20 +168,20 @@ TODO: Add long description of the pod here.
     ss.source_files = 'TMUIComponents/Classes/TMUISegmentView/*.{h,m}'
   end
 
-  s.subspec 'TMUISearchBar' do |ss|
-    ss.source_files = 'TMUIComponents/Classes/TMUISearchBar/*.{h,m}'
-    ss.resource_bundles = {
-      'TMUISearchBarUIAssets' => ['TMUIComponents/Classes/TMUISearchBar/Resource/*']
-    }
-  end
+#  s.subspec 'TMUISearchBar' do |ss|
+#    ss.source_files = 'TMUIComponents/Classes/TMUISearchBar/*.{h,m}'
+#    ss.resource_bundles = {
+#      'TMUISearchBarUIAssets' => ['TMUIComponents/Classes/TMUISearchBar/Resource/*']
+#    }
+#  end
 
-  s.subspec 'TMUIFilterView' do |ss|
-    ss.source_files = 'TMUIComponents/Classes/TMUIFilterView/*.{h,m}'
-  end
+#  s.subspec 'TMUIFilterView' do |ss|
+#    ss.source_files = 'TMUIComponents/Classes/TMUIFilterView/*.{h,m}'
+#  end
 
-  s.subspec 'TMUIPickerView' do |ss|
-    ss.source_files = 'TMUIComponents/Classes/TMUIPickerView/*.{h,m}'
-  end
+#  s.subspec 'TMUIPickerView' do |ss|
+#    ss.source_files = 'TMUIComponents/Classes/TMUIPickerView/*.{h,m}'
+#  end
 
   s.subspec 'TMUIAppearance' do |ss|
     ss.source_files = 'TMUIComponents/Classes/TMUIAppearance/*.{h,m}'
@@ -189,12 +191,12 @@ TODO: Add long description of the pod here.
     ss.source_files = 'TMUIComponents/Classes/TMUIPopupContainerView/*.{h,m}'
   end
 
-  s.subspec 'TMUINavigationBar' do |ss|
-    ss.source_files = 'TMUIComponents/Classes/TMUINavigationBar/*.{h,m}'
-    ss.resource_bundles = {
-        'TMUINavigationBarUIAssets' => ['TMUIComponents/Classes/TMUINavigationBar/Resource/*']
-      }
-  end
+#  s.subspec 'TMUINavigationBar' do |ss|
+#    ss.source_files = 'TMUIComponents/Classes/TMUINavigationBar/*.{h,m}'
+#    ss.resource_bundles = {
+#        'TMUINavigationBarUIAssets' => ['TMUIComponents/Classes/TMUINavigationBar/Resource/*']
+#      }
+#  end
 
 
     s.subspec 'TMUITableView' do |ss|
