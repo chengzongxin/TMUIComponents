@@ -7,6 +7,7 @@
 //
 
 #import "TMUIViewController.h"
+#import <TMUIComponents/TMUIComponents.h>
 
 @interface TMUIViewController ()
 
@@ -20,10 +21,10 @@
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    [TMUIPickerView showDatePickerWithConfigBlock:nil selectDateBlock:^(NSDate * _Nonnull date) {
+        NSLog(@"%@",date);
+    }];
+    
 }
-
 @end
