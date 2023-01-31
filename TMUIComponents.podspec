@@ -25,7 +25,7 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'chengzongxin' => 'joe.cheng@corp.to8to.com' }
-  s.source           = { :git => 'https://github.com/chengzongxin/TMUIComponents.git', :commit => "8e4647f" }
+  s.source           = { :git => 'https://github.com/chengzongxin/TMUIComponents.git', :commit => "f358bded560d41b462762f537d73b66ad604ddc3" }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
@@ -191,12 +191,12 @@ TODO: Add long description of the pod here.
     ss.source_files = 'TMUIComponents/Classes/TMUIPopupContainerView/*.{h,m}'
   end
 
-#  s.subspec 'TMUINavigationBar' do |ss|
-#    ss.source_files = 'TMUIComponents/Classes/TMUINavigationBar/*.{h,m}'
-#    ss.resource_bundles = {
-#        'TMUINavigationBarUIAssets' => ['TMUIComponents/Classes/TMUINavigationBar/Resource/*']
-#      }
-#  end
+  s.subspec 'TMUINavigationBar' do |ss|
+    ss.source_files = 'TMUIComponents/Classes/TMUINavigationBar/*.{h,m}'
+    ss.resource_bundles = {
+        'TMUINavigationBarUIAssets' => ['TMUIComponents/Classes/TMUINavigationBar/Resource/*']
+      }
+  end
 
 
     s.subspec 'TMUITableView' do |ss|

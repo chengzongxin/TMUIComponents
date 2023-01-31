@@ -124,7 +124,7 @@
     if (![lbl isKindOfClass:UILabel.class]) {
         lbl = [[UILabel alloc] init];
         lbl.textAlignment = NSTextAlignmentCenter;
-        lbl.textColor = UIColorHex(333333);
+        lbl.textColor = UIColorHexString(@"0x333333");
         lbl.font = UIFont(18);
     }
     
