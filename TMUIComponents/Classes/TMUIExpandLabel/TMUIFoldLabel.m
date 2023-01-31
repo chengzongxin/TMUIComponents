@@ -52,7 +52,7 @@
     self.font = [UIFont systemFontOfSize:12];
     self.isFold = YES;
     self.isAutoRefreshContentWhenClickFold = YES;
-    self.foldColor = UIColorHex(0x2C82EC);
+    self.foldColor = tmui_colorWithHexString(@"0x2C82EC");
     self.userInteractionEnabled = YES;
     [self addGestureRecognizer:[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapLabel:)]];
 }
