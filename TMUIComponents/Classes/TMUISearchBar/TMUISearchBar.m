@@ -6,6 +6,7 @@
 //
 
 #import "TMUISearchBar.h"
+#import <Masonry/Masonry.h>
 #import "NSBundle+TMUI.h"
 #import "UIButton+TMUI.h"
 #import "UIView+TMUI.h"

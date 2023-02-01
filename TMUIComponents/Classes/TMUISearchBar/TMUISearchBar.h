@@ -6,7 +6,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <Masonry/Masonry.h>
 #import <TMUICore/TMUICore.h>
 #import <TMUIComponents/TMUIButton.h>
 #import <TMUIComponents/TMUITextField.h>
