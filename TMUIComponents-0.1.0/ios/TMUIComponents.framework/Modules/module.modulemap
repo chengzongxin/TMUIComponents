@@ -1,0 +1,6 @@
+framework module TMUIComponents {
+  umbrella header "TMUIComponents.h"
+
+  export *
+  module * { export * }
+}
