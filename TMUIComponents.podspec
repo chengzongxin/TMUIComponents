@@ -25,7 +25,7 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'chengzongxin' => 'joe.cheng@corp.to8to.com' }
-  s.source           = { :git => 'https://github.com/chengzongxin/TMUIComponents.git', :commit => "f358bded560d41b462762f537d73b66ad604ddc3" }
+  s.source           = { :git => 'https://github.com/chengzongxin/TMUIComponents.git', :commit => "00a5e21" }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
@@ -168,20 +168,20 @@ TODO: Add long description of the pod here.
     ss.source_files = 'TMUIComponents/Classes/TMUISegmentView/*.{h,m}'
   end
 
-#  s.subspec 'TMUISearchBar' do |ss|
-#    ss.source_files = 'TMUIComponents/Classes/TMUISearchBar/*.{h,m}'
-#    ss.resource_bundles = {
-#      'TMUISearchBarUIAssets' => ['TMUIComponents/Classes/TMUISearchBar/Resource/*']
-#    }
-#  end
+  s.subspec 'TMUISearchBar' do |ss|
+    ss.source_files = 'TMUIComponents/Classes/TMUISearchBar/*.{h,m}'
+    ss.resource_bundles = {
+      'TMUISearchBarUIAssets' => ['TMUIComponents/Classes/TMUISearchBar/Resource/*']
+    }
+  end
 
-#  s.subspec 'TMUIFilterView' do |ss|
-#    ss.source_files = 'TMUIComponents/Classes/TMUIFilterView/*.{h,m}'
-#  end
+  s.subspec 'TMUIFilterView' do |ss|
+    ss.source_files = 'TMUIComponents/Classes/TMUIFilterView/*.{h,m}'
+  end
 
-#  s.subspec 'TMUIPickerView' do |ss|
-#    ss.source_files = 'TMUIComponents/Classes/TMUIPickerView/*.{h,m}'
-#  end
+  s.subspec 'TMUIPickerView' do |ss|
+    ss.source_files = 'TMUIComponents/Classes/TMUIPickerView/*.{h,m}'
+  end
 
   s.subspec 'TMUIAppearance' do |ss|
     ss.source_files = 'TMUIComponents/Classes/TMUIAppearance/*.{h,m}'
