@@ -611,7 +611,7 @@ static const CGFloat kSliderBarStartX = 0;
 }
 
 - (UIColor *)contentViewBackgroundColor {
-    return [UIColor whiteColor];
+    return [UIColor clearColor];
 }
 
 - (_TMUIPageHeaderVisualEffectView *)effectView{
